@@ -1,3 +1,9 @@
+/**
+ * @Author: Your name
+ * @Date:   2023-04-28 11:51:34
+ * @Last Modified by:   Your name
+ * @Last Modified time: 2024-02-28 15:13:21
+ */
 import React, { useState, useEffect } from "react";
 import DataInput from "./DataInput";
 import '../styles/styles.css';
@@ -77,12 +83,6 @@ const Content = () => {
     const handleKeyPress = (e) => {
         if(e.code === 'Space'){
             window.location.reload();
-        }
-        if(e.code === 'KeyB'){
-            handleCalcBtnClick1();
-        }
-        if(e.code === 'KeyN'){
-            handleCalcBtnClick2();
         }
     }
 
